@@ -39,6 +39,7 @@
                 android:src="@drawable/id_icon" />
 
             <EditText
+                android:id="@+id/txtId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -68,6 +69,7 @@
                 android:src="@drawable/password_icon" />
 
             <EditText
+                android:id="@+id/txtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
@@ -84,6 +86,7 @@
             android:background="@color/white" />
     </LinearLayout>
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#808080"
